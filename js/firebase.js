@@ -1,13 +1,13 @@
 // Initialize Firebase
 const firebaseConfig = {
-      apiKey: "AIzaSyDmzIVTrpxwOWe9qHPIjhkHjW65ZkzbQx8",
-      authDomain: "fashionistduba.firebaseapp.com",
-      databaseURL: "https://fashionistduba-default-rtdb.firebaseio.com",
-      projectId: "fashionistduba",
-      storageBucket: "fashionistduba.firebasestorage.app",
-      messagingSenderId: "643890565641",
-      appId: "1:643890565641:web:bf770535f54f528755ded8"
-    };
+  apiKey: "AIzaSyCjhzT5WWSTfZ-oU4BizlCvMOFwwDlnqCM",
+  authDomain: "socialambassado.firebaseapp.com",
+  databaseURL: "https://socialambassado-default-rtdb.firebaseio.com",
+  projectId: "socialambassado",
+  storageBucket: "socialambassado.appspot.com",
+  messagingSenderId: "256547456614",
+  appId: "1:256547456614:web:1fc0ffb935ce5f574f0fa7"
+};
 firebase.initializeApp(firebaseConfig);
 const appCheck = firebase.appCheck();
 console.log(appCheck);
